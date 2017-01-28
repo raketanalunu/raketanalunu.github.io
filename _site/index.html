@@ -1,7 +1,45 @@
----
-layout: default
---- 
-<main class="pure-g">      
+<!DOCTYPE html>
+<html>
+	<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Evgenia frontend developer</title>
+
+    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+        <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+        <!--<![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic|Ubuntu:400,400italic&subset=latin,cyrillic" rel="stylesheet" type="text/css">        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+	<body>
+		<div class="bg"></div>
+    <header>
+        <input type="checkbox" id="menu-checkbox" />
+        <nav role="navigation" id="nav-container">
+            <label for="menu-checkbox" class="toggle-button" onclick><i class="fa fa-bars fa-lg"></i></label>
+            <ul class="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>    
+        </nav>
+        <h1><big>Evgenia Kaneva</big><br><small>Frontend Developer</small></h1>       
+    </header>
+		<main class="pure-g">      
     <section class="light pure-u-1">
         <a id="about" class="anchor"></a>
         <div class="pure-u-1-24 pure-u-sm-1-5 pure-u-lg-1-4"></div> 
@@ -91,3 +129,17 @@ layout: default
         <hr> 
 </main>
    
+		<footer>
+        <p><a href="https://vk.com/raketanalunu" target="_blank"><i class="fa fa-vk fa-lg"></i></a><!--
+        --><a href="https://www.instagram.com/raketanalunu" target="_blank"><i class="fa fa-instagram fa-lg"></i></a><!--
+        --><a href="https://github.com/raketanalunu" target="_blank"><i class="fa fa-github fa-lg"></i></a><!--
+        --><a href="https://t.me/raketanalunu" target="_blank"><i class="fa fa-telegram fa-lg"></i></a></p>
+        <p>Made with <i class="fa fa-heart fa-lg heart"></i> in Saint-Petersburg 2016</p>
+</footer>
+		<script type="text/javascript" src="/js/scroll.js"></script>
+<script type="text/javascript" src="/js/nav-style.js"></script>
+<script type="text/javascript" src="/js/menu-onclick.js"></script>
+<script type="text/javascript" src="/js/formspree.js"></script>
+<script type="text/javascript" src="/js/parallax.js"></script>
+	</body>
+</html>
