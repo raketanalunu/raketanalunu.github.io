@@ -1,3 +1,0 @@
-raketanalunu.ru
-
-Personal website.
