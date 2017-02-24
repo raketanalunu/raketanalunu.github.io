@@ -15,14 +15,10 @@
 .pure-form select:focus,
 .pure-form textarea:focus {
     outline: 0;
-    border-color: #D8BFD8;
+    border-color: #ED7B84;
 }
 
-/*
-Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
-since IE8 won't execute CSS that contains a CSS3 selector.
-*/
 .pure-form input:not([type]):focus {
     outline: 0;
-    border-color: #D8BFD8;
+    border-color: #ED7B84;
 }
