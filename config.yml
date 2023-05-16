@@ -1,0 +1,49 @@
+baseURL: "https://raketanalunu.ru/"
+languageCode: 'ru-ru'
+title: Евгения Канева 
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Евгения Канева
+  description: "Портфолио. UX/UI дизайнер."
+  keywords: [design, ui, ux]
+  images: ["/images/about.jpg"]
+  defaultTheme: light
+  disableThemeToggle: true
+
+  ShowPostNavLinks: true
+
+  homeInfoParams:
+    Title: "Привет! \U0001F44B"
+    Content: Меня зовут Женя. Я UX/UI дизайнер мобильных приложений. Создаю эстетичный и минималистичный дизайн. Буду рада расти и учиться в команде единомышленников.
+
+  socialIcons:
+    - name: telegram
+      url: "https://t.me/raketanalunu"
+    - name: github
+      url: "https://github.com/raketanalunu"
+    - name: dribbble
+      url: "https://dribbble.com/EvgeniaKaneva/shots"
+
+menu:
+  main:
+    - identifier: home
+      name: Портфолио
+      url: /
+      weight: 5  
+    - identifier: about
+      name: Обо мне
+      url: /about/
+      weight: 10
+    - identifier: Telegram
+      name: Telegram
+      url: "https://t.me/raketanalunu"
+      weight: 20
