@@ -6,6 +6,10 @@
     display: flex;
 }
 
+.home-info .entry-content p {
+    margin-bottom: 10px;
+}
+
 @media (prefers-color-scheme: light) { 
 
     .post-content pre code {
