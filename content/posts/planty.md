@@ -3,7 +3,7 @@ title: "Planty"
 weight: 40
 summary: "Помощник по уходу за растениями"
 cover:
-  image: "/images/hugoplanty.jpg"  
+  image: "/images/mainplanty.jpg"  
 ---
 
 ## О приложении
